@@ -11,7 +11,7 @@ const ProductPage = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await axios.get("https://www.chefdelightsfoods.com/api/products/");
+        const response = await axios.get("https://chefdelightsfoods.com/api/products/");
         if (response.data && response.data.length > 0) {
           setProducts(response.data);
         } else {
