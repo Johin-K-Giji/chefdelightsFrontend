@@ -11,7 +11,7 @@ const Dashboard = () => {
   });
 
   useEffect(() => {
-    axios.get('https://www.chefsdelights.com/api/admin/product-stats')
+    axios.get('https://www.chefdelightsfoods.com/api/admin/product-stats')
       .then((res) => {
         setStats(res.data);
       })

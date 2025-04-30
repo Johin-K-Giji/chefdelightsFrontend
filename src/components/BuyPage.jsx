@@ -36,7 +36,7 @@ const BuyPage = () => {
       // fetch single product
       const fetchProduct = async () => {
         try {
-          const response = await axios.get(`https://www.chefsdelights.com/api/products/${productId}`);
+          const response = await axios.get(`https://www.chefdelightsfoods.com/api/products/${productId}`);
           if (response.data) {
             setProducts([response.data]); // Wrap in array for consistency
             setProductIds([response.data._id]);
@@ -109,7 +109,7 @@ const BuyPage = () => {
 
 
     // Create order on backend
-    const orderResponse = await axios.post("https://www.chefsdelights.com/api/payment/create-order/", {
+    const orderResponse = await axios.post("https://www.chefdelightsfoods.com/api/payment/create-order/", {
       amount: totalAmount * 100, // in paise
     });
 
@@ -128,7 +128,7 @@ const BuyPage = () => {
 
 
 
-        const verifyRes = await axios.post("https://www.chefsdelights.com/api/payment/verify-payment", {
+        const verifyRes = await axios.post("https://www.chefdelightsfoods.com/api/payment/verify-payment", {
           ...response,
           orderDetails: form,
           totalAmount,
@@ -213,7 +213,7 @@ const BuyPage = () => {
   products.map((product, index) => (
     <div key={index} className="flex gap-4 mb-4">
       <img
-        src={`https://www.chefsdelights.com/static/products/${product.coverImage}`}
+        src={`https://www.chefdelightsfoods.com/static/products/${product.coverImage}`}
         alt={product.name}
         className="w-20 h-20 object-contain rounded"
       />

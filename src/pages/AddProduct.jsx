@@ -54,7 +54,7 @@ const AddProductPage = () => {
     });
   
     try {
-      const response = await axios.post('https://www.chefsdelights.com/api/products/create', formData, {
+      const response = await axios.post('https://www.chefdelightsfoods.com/api/products/create', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
