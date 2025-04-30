@@ -12,7 +12,7 @@ const ViewOrders = () => {
   }, []);
 
   const fetchOrders = () => {
-    axios.get('https://chefdelightsfoods.com/api/orders/getorder')
+    axios.get('https://www.chefdelightsfoods.com/api/orders/getorder')
       .then(response => {
         setOrders(response.data);
       })
@@ -38,7 +38,7 @@ const ViewOrders = () => {
   
 
   const handleStatusUpdate = (orderId) => {
-    axios.put('https://chefdelightsfoods.com/api/orders/update-order', { orderId })
+    axios.put('https://www.chefdelightsfoods.com/api/orders/update-order', { orderId })
       .then(response => {
         console.log(response.data.message);
         fetchOrders(); // Refresh order list

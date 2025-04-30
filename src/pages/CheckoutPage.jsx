@@ -17,7 +17,7 @@ const Checkout = () => {
     name="keywords"
     content="Chef Delights checkout, puttu podi order India, spice delivery UAE, Kerala food online, secure payment, food delivery India UAE"
   />
-  <link rel="canonical" href="https://chefdelightsfoods.com/checkout" />
+  <link rel="canonical" href="https://www.chefdelightsfoods.com/checkout" />
 
   {/* Open Graph */}
   <meta property="og:title" content="Checkout | Chef Delights – Secure Kerala Food Delivery" />
@@ -26,8 +26,8 @@ const Checkout = () => {
     content="Place your order for Kerala's finest products. Fast delivery across India and the UAE. Safe and secure payment gateway."
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://chefdelightsfoods.com/checkout" />
-  <meta property="og:image" content="https://chefdelightsfoods.com/images/checkout-banner.jpg" />
+  <meta property="og:url" content="https://www.chefdelightsfoods.com/checkout" />
+  <meta property="og:image" content="https://www.chefdelightsfoods.com/images/checkout-banner.jpg" />
   <meta property="og:site_name" content="Chef Delights" />
 
   {/* Twitter */}
@@ -37,7 +37,7 @@ const Checkout = () => {
     name="twitter:description"
     content="Secure checkout for traditional Kerala food lovers. Shop now from India or UAE."
   />
-  <meta name="twitter:image" content="https://chefdelightsfoods.com/images/checkout-banner.jpg" />
+  <meta name="twitter:image" content="https://www.chefdelightsfoods.com/images/checkout-banner.jpg" />
 
   {/* Geo & Language */}
   <meta name="geo.region" content="IN" />

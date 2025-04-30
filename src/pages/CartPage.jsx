@@ -17,7 +17,7 @@ const CartPage = () => {
     name="keywords"
     content="Chef Delights cart, puttu podi order, Kerala food cart India UAE, online spice shopping, traditional South Indian products"
   />
-  <link rel="canonical" href="https://chefdelightsfoods.com/cart" />
+  <link rel="canonical" href="https://www.chefdelightsfoods.com/cart" />
 
   {/* Open Graph */}
   <meta property="og:title" content="Your Cart | Chef Delights – Kerala Flavours Delivered" />
@@ -26,8 +26,8 @@ const CartPage = () => {
     content="You're almost there! Review your cart and enjoy authentic Kerala dishes delivered to your doorstep in India and UAE."
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://chefdelightsfoods.com/cart" />
-  <meta property="og:image" content="https://chefdelightsfoods.com/images/cart-preview.jpg" />
+  <meta property="og:url" content="https://www.chefdelightsfoods.com/cart" />
+  <meta property="og:image" content="https://www.chefdelightsfoods.com/images/cart-preview.jpg" />
   <meta property="og:site_name" content="Chef Delights" />
 
   {/* Twitter */}
@@ -37,7 +37,7 @@ const CartPage = () => {
     name="twitter:description"
     content="Finalize your purchase of authentic Kerala products. Shop now and get delivery in India & UAE."
   />
-  <meta name="twitter:image" content="https://chefdelightsfoods.com/images/cart-preview.jpg" />
+  <meta name="twitter:image" content="https://www.chefdelightsfoods.com/images/cart-preview.jpg" />
 
   {/* Geo & Language */}
   <meta name="geo.region" content="IN" />

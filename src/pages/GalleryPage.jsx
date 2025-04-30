@@ -18,7 +18,7 @@ const GalleryPage = ()=>{
     name="keywords"
     content="Chef Delights gallery, Kerala food images, puttu podi photos, spice gallery, millets showcase, traditional Indian cuisine visuals"
   />
-  <link rel="canonical" href="https://chefdelightsfoods.com/gallery" />
+  <link rel="canonical" href="https://www.chefdelightsfoods.com/gallery" />
 
   {/* Open Graph */}
   <meta property="og:title" content="Gallery | Chef Delights – South Indian Food Showcase" />
@@ -27,8 +27,8 @@ const GalleryPage = ()=>{
     content="Visual delight of authentic Kerala flavors – browse images of our popular puttu podi, spices, and meals enjoyed across India & UAE."
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://chefdelightsfoods.com/gallery" />
-  <meta property="og:image" content="https://chefdelightsfoods.com/images/gallery-preview.jpg" />
+  <meta property="og:url" content="https://www.chefdelightsfoods.com/gallery" />
+  <meta property="og:image" content="https://www.chefdelightsfoods.com/images/gallery-preview.jpg" />
   <meta property="og:site_name" content="Chef Delights" />
 
   {/* Twitter */}
@@ -38,7 +38,7 @@ const GalleryPage = ()=>{
     name="twitter:description"
     content="Get inspired by our traditional Kerala food gallery. Trusted by customers in India and UAE."
   />
-  <meta name="twitter:image" content="https://chefdelightsfoods.com/images/gallery-preview.jpg" />
+  <meta name="twitter:image" content="https://www.chefdelightsfoods.com/images/gallery-preview.jpg" />
 
   {/* Geo & Language */}
   <meta name="geo.region" content="IN" />

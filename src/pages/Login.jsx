@@ -18,9 +18,9 @@ const Login = () => {
     setMessage("");
 
     try {
-      const res = await axios.post("https://chefdelightsfoods.com/api/auth/login/", formData);
+      const res = await axios.post("https://www.chefdelightsfoods.com/api/auth/login/", formData);
       setMessage(res.data.message);
-      localStorage.setItem("isLoggedIn", "true");
+      localStorage.setItem("isLoggedIn", "true"); 
 navigate("/admin");
     } catch (err) {
       setMessage(err.response?.data?.message || "Login failed");

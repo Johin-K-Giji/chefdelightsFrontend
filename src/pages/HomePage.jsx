@@ -29,7 +29,7 @@ const Home = () => {
     name="keywords"
     content="Kerala puttu podi, buy puttu powder UAE, Indian millets online, Kerala food products, traditional spices, Chef Delights, best puttu podi India"
   />
-  <link rel="canonical" href="https://chefdelightsfoods.com/" />
+  <link rel="canonical" href="https://www.chefdelightsfoods.com/" />
 
   {/* Open Graph / Facebook */}
   <meta property="og:title" content="Buy Kerala Puttu Podi Online | Chef Delights" />
@@ -38,8 +38,8 @@ const Home = () => {
     content="Experience the authentic flavors of Kerala. Buy premium puttu podi, millets, and spices online from Chef Delights. Shipping across India & UAE."
   />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://chefdelightsfoods.com/images/home-banner.jpg" />
-  <meta property="og:url" content="https://chefdelightsfoods.com/" />
+  <meta property="og:image" content="https://www.chefdelightsfoods.com/images/home-banner.jpg" />
+  <meta property="og:url" content="https://www.chefdelightsfoods.com/" />
   <meta property="og:site_name" content="Chef Delights" />
 
   {/* Twitter */}
@@ -49,7 +49,7 @@ const Home = () => {
     name="twitter:description"
     content="Shop Kerala's favorite puttu podi, millets, and spices online. Delivery to India & UAE. Taste tradition with Chef Delights."
   />
-  <meta name="twitter:image" content="https://chefdelightsfoods.com/images/home-banner.jpg" />
+  <meta name="twitter:image" content="https://www.chefdelightsfoods.com/images/home-banner.jpg" />
 
   {/* Geo Meta Tags */}
   <meta name="geo.region" content="IN" />

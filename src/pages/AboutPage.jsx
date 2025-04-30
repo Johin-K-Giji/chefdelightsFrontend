@@ -18,7 +18,7 @@ const About = ()=>{
     name="keywords"
     content="About Chef Delights, Kerala food company, Indian food in UAE, puttu powder brand, authentic spices India, traditional Kerala products"
   />
-  <link rel="canonical" href="https://chefdelightsfoods.com/about" />
+  <link rel="canonical" href="https://www.chefdelightsfoods.com/about" />
 
   {/* Open Graph / Facebook */}
   <meta property="og:title" content="About Chef Delights | Kerala Taste Across India & UAE" />
@@ -27,8 +27,8 @@ const About = ()=>{
     content="Chef Delights brings the essence of Kerala cuisine to your table. Learn our story and how we deliver authentic food products to India and UAE."
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://chefdelightsfoods.com/about" />
-  <meta property="og:image" content="https://chefdelightsfoods.com/images/about-banner.jpg" />
+  <meta property="og:url" content="https://www.chefdelightsfoods.com/about" />
+  <meta property="og:image" content="https://www.chefdelightsfoods.com/images/about-banner.jpg" />
   <meta property="og:site_name" content="Chef Delights" />
 
   {/* Twitter */}
@@ -38,7 +38,7 @@ const About = ()=>{
     name="twitter:description"
     content="Chef Delights delivers traditional Kerala food products like puttu podi, millets, and spices across India & UAE. Read our story."
   />
-  <meta name="twitter:image" content="https://chefdelightsfoods.com/images/about-banner.jpg" />
+  <meta name="twitter:image" content="https://www.chefdelightsfoods.com/images/about-banner.jpg" />
 
   {/* Geo & Language */}
   <meta name="geo.region" content="IN" />
