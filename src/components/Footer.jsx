@@ -72,10 +72,23 @@ const Footer = () => {
 
       {/* Social Icons */}
       <div className="flex justify-center mt-6 space-x-6">
-        <FaInstagram className="text-xl cursor-pointer hover:text-gray-300" />
-        <FaWhatsapp className="text-xl cursor-pointer hover:text-gray-300" />
-        <FaFacebook className="text-xl cursor-pointer hover:text-gray-300" />
-      </div>
+  <a
+    href="https://www.instagram.com/chef_sdelights?igsh=MWxzZWVjOHU4dHVibA%3D%3D"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaInstagram className="text-xl cursor-pointer hover:text-gray-300" />
+  </a>
+
+  <a
+    href="https://wa.me/918547730543"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaWhatsapp className="text-xl cursor-pointer hover:text-gray-300" />
+  </a>
+</div>
+
     </footer>
   );
 };
