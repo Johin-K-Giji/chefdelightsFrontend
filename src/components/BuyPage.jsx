@@ -116,7 +116,7 @@ const BuyPage = () => {
     const { amount, id: order_id, currency } = orderResponse.data;
 
     const options = {
-      key: "rzp_test_bHWhJgONq3yqhm", // Replace with your Razorpay key
+      key: "rzp_live_LIrBEQw6TTri1V", // Replace with your Razorpay key
       amount,
       currency,
       name: "Chef Delights Products",
