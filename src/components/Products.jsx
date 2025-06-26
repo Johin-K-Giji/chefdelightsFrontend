@@ -77,7 +77,7 @@ const ListView = ({ product }) => {
           {product.subImages.map((img, index) => (
             <img
             key={index}
-            src={`https://www.chefdelightsfoods.com/static/products/${img}`}
+            src={`  ${img}`}
             alt={`Sub-image of ${product.name}`}
             onClick={() => setMainImage(`https://www.chefdelightsfoods.com/static/products/${img}`)}
             onError={(e) => {
